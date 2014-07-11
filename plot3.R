@@ -1,4 +1,4 @@
-#Defining some variables: file name, title of the plot and X label
+#Defining some variables: dataset path, Y axis label
 fileName <- "household_power_consumption.txt"
 yLabel = "Energy sub metering" 
 
