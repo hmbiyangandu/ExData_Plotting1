@@ -25,6 +25,6 @@ png(file="plot3.png")
 plot(shpc$Date_time, shpc$Sub_metering_1, type="l", ylab=yLabel, xlab="")
 lines(shpc$Date_time, shpc$Sub_metering_2, col="red")
 lines(shpc$Date_time, shpc$Sub_metering_3, col="blue")
-legend("topright", pch="__", col=c("black","red","blue"), legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+legend("topright", lty = "solid", col=c("black","red","blue"), legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 # Closing the device to release resourses
 dev.off()

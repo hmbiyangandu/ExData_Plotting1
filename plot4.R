@@ -36,7 +36,7 @@ with(shpc, {
   plot(shpc$Date_time, shpc$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
   lines(shpc$Date_time, shpc$Sub_metering_2, col="red")
   lines(shpc$Date_time, shpc$Sub_metering_3, col="blue")
-  legend("topright", pch="_", bty="n", col=c("black","red","blue"), legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+  legend("topright", lty = "solid", bty="n", col=c("black","red","blue"), legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
   
   # Plot (2,2)
   plot(shpc$Date_time, shpc$Global_reactive_power, type="l", ylab="Global_reactive_power", xlab="Datetime")
